@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:type} ${2:name} (${3:void})
+{
+	${5:}
+	return ${4:variable};
+}
+]]></content>
+	<tabTrigger>f,fnc</tabTrigger>
+	<description>Declare function</description>
+	<scope>source.c</scope>
+</snippet>
